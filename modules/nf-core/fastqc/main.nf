@@ -4,7 +4,7 @@ process FASTQC {
 
     container = ${container_id}
     
-    container_id = "biocontainers/fastqc:0.11.9--0"
+    container_id = 'biocontainers/fastqc:0.11.9--0'
 
     
 

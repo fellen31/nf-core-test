@@ -2,7 +2,7 @@ process FASTQC {
     tag "$meta.id"
     label 'process_medium'
 
-    container = ${container_id}
+    container = $container_id
     
     container_id = 'biocontainers/fastqc:0.11.9--0'
 
